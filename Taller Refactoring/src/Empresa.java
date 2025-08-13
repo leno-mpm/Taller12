@@ -16,16 +16,6 @@ public class Empresa {
         empleados.remove(empleado);
     }
 
-    public List<Empleado> obtenerEmpleadosPorHorasTrabajadasaPartirDe(int horas) {
-        List<Empleado> empleadosPorTipo = new ArrayList<>();
-        for (Empleado empleado : empleados) {
-            if (empleado.getHorasTrabajadas()>horas) {
-                empleadosPorTipo.add(empleado);
-            }
-        }
-        return empleadosPorTipo;
-    }
-
     // Más metodos
 }
 
