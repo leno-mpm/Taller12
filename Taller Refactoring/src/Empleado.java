@@ -11,6 +11,7 @@ public class Empleado {
         this.salarioBase = salarioBase;
         this.horasTrabajadas = horasTrabajadas;
         this.departamento = departamento;
+        this.genero = genero;
     }
 
     public double calcularSalario(){
